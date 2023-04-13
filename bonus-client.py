@@ -19,3 +19,5 @@ while True:
         break
     parsedResponse = json.loads(response)
     print(parsedResponse)
+    print("Client Name: ", clientName, " | Server Name: ", parsedResponse["ServerName"],
+          " | Server Number: ", parsedResponse["ServerNumber"])
